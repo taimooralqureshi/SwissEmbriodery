@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/red.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+
+body {
+    font-size: 20px;
+    overflow-x: hidden;
+    color: #fff;
+    font-family: 'Sniglet', cursive;
+    font-weight: lighter;
+}
+
+.clearfix::after{
+    content : "";
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.row {
+    padding: 0 2%;
+    margin: 0 auto;
+    /* border: 1 solid #fff; */
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    text-transform: uppercase;
+    font-weight:100;
+    padding: 4px 4px;
+}
+
+.main-nav li a:hover{
+    border-bottom: 2px solid #fff ;
+}
+
+
+
+.main-content-header{
+    width: 92%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1 solid #fff;
+}
+
+h1 {
+    color: #fff;
+    font-size: 240%;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid #fff;  
+    background-color: transparent;
+    width: 240px;
+    text-align: center;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn:hover {
+    color : rgb(156, 28, 28);
+    background-color: #fff;
+  
+}
+.btn-1{
+    margin-right: 20px;
+}
+
